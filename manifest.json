@@ -1,0 +1,13 @@
+{
+  "background_color": "#ffffff",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "Doc Scanner",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "Doc Scanner",
+  "start_url": "/",
+  "theme_color": "#ffffff",
+  "id": "scanner-app",
+  "description": "Document Scanner App"
+}

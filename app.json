@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "ماسح المستندات",
+    "slug": "doc-scanner-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1E3A5F"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourcompany.docscanner",
+      "infoPlist": {
+        "NSCameraUsageDescription": "التطبيق يحتاج الكاميرا لتصوير المستندات",
+        "NSPhotoLibraryUsageDescription": "التطبيق يحتاج مكتبة الصور لحفظ المستندات"
+      }
+    },
+    "android": {
+      "package": "com.yourcompany.docscanner",
+      "permissions": ["CAMERA", "READ_EXTERNAL_STORAGE", "WRITE_EXTERNAL_STORAGE"],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#1E3A5F"
+      }
+    },
+    "plugins": [
+      [
+        "react-native-google-mobile-ads",
+        {
+          "androidAppId": "ca-app-pub-xxxxxxxxxxxxxxxx~xxxxxxxxxx",
+          "iosAppId": "ca-app-pub-xxxxxxxxxxxxxxxx~xxxxxxxxxx"
+        }
+      ]
+    ]
+  }
+}
